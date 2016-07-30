@@ -1,0 +1,5 @@
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles/edit_cache.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles/rebuild_cache.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source/CMakeFiles/edit_cache.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source/CMakeFiles/rebuild_cache.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source/CMakeFiles/index.wt.dir
