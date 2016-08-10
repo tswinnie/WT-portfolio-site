@@ -6,11 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/main.cpp
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Index.cpp
+Index.h
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Index.h
 Wt/WApplication
 -
 Wt/WPushButton
 -
 Wt/WContainerWidget
+-
+Wt/WAnimation
+-
+Wt/WAnchor
+-
+Wt/WLink
+-
+Wt/WText
+-
+Wt/WTemplate
+-
+Wt/WString
+-
+
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Index.h
+Wt/WApplication
+-
+Wt/WPushButton
+-
+Wt/WContainerWidget
+-
+Wt/WAnimation
+-
+Wt/WAnchor
+-
+Wt/WLink
+-
+Wt/WText
+-
+Wt/WTemplate
 -
 

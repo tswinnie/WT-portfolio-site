@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/index.wt.dir/main.cpp.o  -o index.wt -lwthttp -lwt 
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/index.wt.dir/Index.cpp.o  -o index.wt -lwthttp -lwt 

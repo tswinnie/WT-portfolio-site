@@ -1,1 +1,342 @@
 /* YOUR CUSTOM STYLES */
+/*base-font-color: #ecf0f1*/
+/*body-background-color: #313131*/
+
+body{
+    background-color: #313131;
+    color: #ecf0f1;
+}
+
+.navbar-dark{
+    box-shadow:none;
+    margin-bottom: 65px;
+
+}
+
+.navbar-brand{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0px 10px;
+    font-weight: 100;
+    font-size: 2em;
+    padding-left: 15px;
+}
+
+.logo-dot{
+    color: #f44336;
+}
+
+.nav-link{
+    font-weight: 300;
+}
+
+.logo-card-text{
+    color: #d63b30;
+    text-shadow: -1px 0 0 #c2352b, -2px 0 0 #af2f26;
+    font-size: 6.5em;
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.card{
+    min-height: 238px;
+    margin-bottom: 15px;
+    background-color: #3e3e3e;
+}
+
+.center-card{
+    min-height: 491px;
+}
+
+.set-gutter{
+
+    padding: 0;
+}
+
+.profile-card{
+    background-color: #282828;
+}
+.logo-card{
+    background-color: #f44336;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    font-size: 2.5em;
+    font-weight: 100;
+    line-height: 2;
+}
+
+.outline{
+    font-weight:300;
+    color: #f44336;
+}
+
+.contact-title{
+    font-size: 1.45em;
+    text-transform: capitalize;
+}
+
+.dribble-link,.linkedin-link,.mail-link{
+    font-size: 1.2em;
+    color: #ecf0f1;
+    font-weight: 100;
+    line-height: 2.3;
+    position: relative;
+    top: 5px;
+}
+
+
+
+.dribble-icon,.linkedin-icon,.mail-icon{
+    width: 2.3em;
+    margin-right: 10px;
+    position: relative;
+    height: 2em;
+    top: 12px;
+}
+
+/*.linkedin-link{*/
+    /*color: #0077B5*/
+/*}*/
+li a{
+    color: #ecf0f1;
+
+}
+li a:hover{
+    color: #ecf0f1;
+
+}
+li a:active{
+    color: #ecf0f1;
+
+}
+li a:visited{
+    color: #ecf0f1;
+
+}
+
+.quote-text{
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 100;
+    quotes: "“" "”" "‘" "’";
+}
+
+.quote-text:before {
+    content: open-quote;
+}
+.quote-text:after{
+    content: close-quote;
+}
+
+.quote-author{
+}
+
+.skills{
+    font-weight: 300;
+    color: #f44336;
+}
+
+.about{
+    font-size: 1.2em;
+    line-height: 2;
+    font-weight: 100;
+}
+
+.design-list{
+    font-weight: 100;
+}
+
+.development-card{
+
+}
+
+.design-list{
+    line-height: 1;
+}
+
+.dev-skill-list{
+    width: 50%;
+    float: left;
+    margin-top: 7px;
+
+}
+
+.questions-link{
+    text-decoration: underline;
+}
+.questions-link:hover{
+     color: #f44336;
+ }
+
+.questions-link:after{
+    color: #f44336;
+}
+
+.card-block {
+    padding: 1rem;
+    width: 100%;
+    font-size: .9em;
+    opacity: 1;
+}
+
+.modal-content{
+    background: #313131;
+    min-height: 400px;
+    padding: 20px;
+}
+
+.footer-text{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-weight: 100;
+    font-size: .8em;
+    text-transform: lowercase;
+    position: absolute;
+    bottom: 5px;
+    left: -10px;
+}
+
+.work-image-card{
+    background-color: #f44336;
+    min-height: 490px;
+}
+
+.work-image-detail-card{
+
+}
+
+.close {
+    float: right;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.close:hover{
+    color: #fff;
+}
+
+
+.center-card-about{
+    min-height: 491px;
+    font-size: 1.3em;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card {
+        margin-bottom: 15px;
+    }
+    .close {
+        float: right;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1;
+        color: #fff;
+        text-shadow: 0 1px 0 #fff;
+        opacity: .5;
+        position: absolute;
+        right: 5px;
+        top: 0;
+    }
+
+    .center-card-about {
+        min-height: 491px;
+        font-size: 1em;
+    }
+
+    .footer-text {
+        position: relative;
+    }
+    .navbar .navbar-toggleable-xs .nav-item {
+        margin-left: 10px;
+        float: left;
+    }
+
+
+}
+
+@media only screen and (min-width: 770px) {
+    /* For tablets: */
+    .col-md-8{
+        padding: 0;
+    }
+
+    .modal-lg {
+        padding: 0;
+        margin: 40px auto;
+        width: 95%;
+    }
+
+    .center-card-about {
+        min-height: 491px;
+        font-size: 1em;
+    }
+    .footer-text {
+        position: relative;
+    }
+
+
+
+}
+@media only screen and (min-width: 992px) {
+    /* For laptop: */
+
+    .col-lg-6{
+        padding: 0;
+    }
+
+    .col-xl-9{
+        padding: 0;
+    }
+    .col-xl-4 {
+        padding: 7px;
+    }
+
+    .center-card{
+        /*min-height: 506px;*/
+    }
+    .center-card-about {
+        min-height: 491px;
+        font-size: 1em;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /* For desktop: */
+
+    .center-card{
+        min-height: 491px;
+    }
+
+    .row{
+        margin-top: 7%;
+    }
+    .center-card-about {
+        min-height: 491px;
+        font-size: 1.3em;
+    }
+
+    .work-container{
+        position: relative;
+        top: -30px;
+    }
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+
+    <!--use single quotes for id section-->
+    <message id='footer'>
+        <!--start of footer content-->
+        <footer>
+            <span class="footer-text">&copy; Tyrone Swinnie all rights lost</span>
+        </footer>
+    </message>
+
+
+</messages>

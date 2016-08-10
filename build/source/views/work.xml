@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+
+    <!--use single quotes for id section-->
+    <message id='work'>
+        <!--start of content area-->
+        <main>
+            <!--Main layout-->
+            <div class="container">
+                <!--First row-->
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <!--Card-->
+                        <!--logo card-->
+                        <div class="card">
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Card title</h4>
+                                <!--Text-->
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="read-more">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                </div>
+                            </div>
+                            <!--/.Card image-->
+                        </div>
+                        <!--/.Card-->
+                        <!--contact card-->
+                        <!--Card-->
+                        <div class="card contact-card">
+                            <!--details overlay content-->
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Card title</h4>
+                                <!--Text-->
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="read-more">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                </div>
+                            </div>
+                            <!--/.Card content-->
+                        </div>
+                        <!--/.Card-->
+                    </div>
+                    <!--/.First column-->
+
+                    <!--Second column-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <!--Card-->
+                        <div class="card">
+                            <!--Card content-->
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Card title</h4>
+                                <!--Text-->
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="read-more">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                </div>
+                            </div>
+                            <!--/.Card content-->
+                        </div>
+                        <!--/.Card-->
+                        <div class="card contact-card">
+                            <!--Card content-->
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Card title</h4>
+                                <!--Text-->
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="read-more">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                </div>
+                            </div>
+                            <!--/.Card content-->
+                        </div>
+                        <!--/.Card-->
+                    </div>
+                    <!--/.Second column-->
+
+                    <!--Third column-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <!--Card-->
+                        <div class="card">
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Card title</h4>
+                                <!--Text-->
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="read-more">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                </div>
+                            </div>
+                            <!--/.Card image-->
+                        </div>
+                        <!--/.Card-->
+
+                        <!--Card-->
+                        <div class="card quote-card">
+                            <!--Card content-->
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Card test</h4>
+                                <!--Text-->
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="read-more">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                </div>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+                    </div>
+                    <!--/.Third column-->
+
+                </div>
+                <!--/.First row-->
+
+            </div>
+            <!--/.Main layout-->
+        </main>
+    </message>
+
+
+</messages>

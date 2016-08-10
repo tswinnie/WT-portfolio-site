@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+
+    <!--use single quotes for id section-->
+    <message id='about'>
+        <!--start of content area-->
+        <main>
+            <!--Main layout-->
+            <div class="container">
+
+                <!--First row-->
+                <div class="row">
+
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
+                        <!--Card-->
+                        <div class="card center-card-about">
+                            <!--Card content-->
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">About <b class="outline">Me</b></h4>
+                                <!--Text-->
+                                <p class="about">I am an UI/UX developer and designer with
+                                    professional experience in building scalable web
+                                    applications, with a focus on providing performance
+                                    security and great user experience. I am passionate about
+                                    quality code, best practices, meaningful design and high
+                                    performance applications.</p>
+
+                                <p class="about">On a daily basis, I work on complex front-end projects with
+                                    up-to-date languages and technologies, and I also have a
+                                    decent grasp of server-side development.  I enjoy
+                                    experimenting with new frameworks and libraries.</p>
+
+                                <!--question link-->
+                                If you have any questions feel free to drop me a  <a class="questions-link outline" href="mailto:tyrone.swinnie@gmail.com?Subject=Hi" target="_top">line.</a>
+
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+                    </div>
+                    <!--/.Second column-->
+
+                    <!--Third column-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-3">
+                        <!--Card-->
+                        <div class="card development-card">
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class=""><b class="outline">Development Skills</b></h4>
+                                <!--Text-->
+                                <ul class="dev-skill-list">
+                                    <li>
+                                        <p class="design-list">HTML5 </p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">JavaScript</p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">jQuery</p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">CSS3</p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">C++</p>
+                                    </li>
+                                </ul>
+
+                                <ul class="dev-skill-list">
+                                    <li>
+                                        <p class="design-list">PHP </p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">MySQL</p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">Sass</p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">Git</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!--/.Card image-->
+                        </div>
+                        <!--/.Card-->
+
+                        <!--Card-->
+                        <div class="card quote-card">
+                            <!--Card content-->
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class=""><b class="outline">Interactive Design</b></h4>
+                                <!--Text-->
+                                <ul class="dev-skill-list">
+                                    <li>
+                                        <p class="design-list">Photoshop </p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">Illustrator</p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">InDesign</p>
+                                    </li>
+                                    <li>
+                                        <p class="design-list">InVision</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+                    </div>
+                    <!--/.Third column-->
+
+
+                </div>
+                <!--/.First row-->
+
+            </div>
+            <!--/.Main layout-->
+        </main>
+    </message>
+
+
+</messages>

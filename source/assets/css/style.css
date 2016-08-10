@@ -98,6 +98,9 @@ body{
 .dribble-icon,.linkedin-icon,.mail-icon{
     width: 2.3em;
     margin-right: 10px;
+    position: relative;
+    height: 2em;
+    top: 12px;
 }
 
 /*.linkedin-link{*/
@@ -312,9 +315,7 @@ li a:visited{
         min-height: 491px;
         font-size: 1em;
     }
-    .footer-text {
-        position: absolute;
-    }
+
 
 }
 

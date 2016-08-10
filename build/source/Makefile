@@ -125,32 +125,32 @@ index.wt/fast:
 	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/build
 .PHONY : index.wt/fast
 
-main.o: main.cpp.o
+Index.o: Index.cpp.o
 
-.PHONY : main.o
+.PHONY : Index.o
 
 # target to build an object file
-main.cpp.o:
-	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/main.cpp.o
-.PHONY : main.cpp.o
+Index.cpp.o:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Index.cpp.o
+.PHONY : Index.cpp.o
 
-main.i: main.cpp.i
+Index.i: Index.cpp.i
 
-.PHONY : main.i
+.PHONY : Index.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/main.cpp.i
-.PHONY : main.cpp.i
+Index.cpp.i:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Index.cpp.i
+.PHONY : Index.cpp.i
 
-main.s: main.cpp.s
+Index.s: Index.cpp.s
 
-.PHONY : main.s
+.PHONY : Index.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/main.cpp.s
-.PHONY : main.cpp.s
+Index.cpp.s:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Index.cpp.s
+.PHONY : Index.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... index.wt"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Index.o"
+	@echo "... Index.i"
+	@echo "... Index.s"
 .PHONY : help
 
 
