@@ -81,17 +81,95 @@ source/CMakeFiles/index.wt.dir/Index.cpp.o.provides: source/CMakeFiles/index.wt.
 source/CMakeFiles/index.wt.dir/Index.cpp.o.provides.build: source/CMakeFiles/index.wt.dir/Index.cpp.o
 
 
+source/CMakeFiles/index.wt.dir/Home.cpp.o: source/CMakeFiles/index.wt.dir/flags.make
+source/CMakeFiles/index.wt.dir/Home.cpp.o: ../source/Home.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/CMakeFiles/index.wt.dir/Home.cpp.o"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/index.wt.dir/Home.cpp.o -c "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Home.cpp"
+
+source/CMakeFiles/index.wt.dir/Home.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.wt.dir/Home.cpp.i"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Home.cpp" > CMakeFiles/index.wt.dir/Home.cpp.i
+
+source/CMakeFiles/index.wt.dir/Home.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.wt.dir/Home.cpp.s"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Home.cpp" -o CMakeFiles/index.wt.dir/Home.cpp.s
+
+source/CMakeFiles/index.wt.dir/Home.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/index.wt.dir/Home.cpp.o.requires
+
+source/CMakeFiles/index.wt.dir/Home.cpp.o.provides: source/CMakeFiles/index.wt.dir/Home.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Home.cpp.o.provides.build
+.PHONY : source/CMakeFiles/index.wt.dir/Home.cpp.o.provides
+
+source/CMakeFiles/index.wt.dir/Home.cpp.o.provides.build: source/CMakeFiles/index.wt.dir/Home.cpp.o
+
+
+source/CMakeFiles/index.wt.dir/About.cpp.o: source/CMakeFiles/index.wt.dir/flags.make
+source/CMakeFiles/index.wt.dir/About.cpp.o: ../source/About.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/index.wt.dir/About.cpp.o"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/index.wt.dir/About.cpp.o -c "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/About.cpp"
+
+source/CMakeFiles/index.wt.dir/About.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.wt.dir/About.cpp.i"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/About.cpp" > CMakeFiles/index.wt.dir/About.cpp.i
+
+source/CMakeFiles/index.wt.dir/About.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.wt.dir/About.cpp.s"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/About.cpp" -o CMakeFiles/index.wt.dir/About.cpp.s
+
+source/CMakeFiles/index.wt.dir/About.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/index.wt.dir/About.cpp.o.requires
+
+source/CMakeFiles/index.wt.dir/About.cpp.o.provides: source/CMakeFiles/index.wt.dir/About.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/About.cpp.o.provides.build
+.PHONY : source/CMakeFiles/index.wt.dir/About.cpp.o.provides
+
+source/CMakeFiles/index.wt.dir/About.cpp.o.provides.build: source/CMakeFiles/index.wt.dir/About.cpp.o
+
+
+source/CMakeFiles/index.wt.dir/Work.cpp.o: source/CMakeFiles/index.wt.dir/flags.make
+source/CMakeFiles/index.wt.dir/Work.cpp.o: ../source/Work.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/index.wt.dir/Work.cpp.o"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/index.wt.dir/Work.cpp.o -c "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Work.cpp"
+
+source/CMakeFiles/index.wt.dir/Work.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.wt.dir/Work.cpp.i"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Work.cpp" > CMakeFiles/index.wt.dir/Work.cpp.i
+
+source/CMakeFiles/index.wt.dir/Work.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.wt.dir/Work.cpp.s"
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Work.cpp" -o CMakeFiles/index.wt.dir/Work.cpp.s
+
+source/CMakeFiles/index.wt.dir/Work.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/index.wt.dir/Work.cpp.o.requires
+
+source/CMakeFiles/index.wt.dir/Work.cpp.o.provides: source/CMakeFiles/index.wt.dir/Work.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Work.cpp.o.provides.build
+.PHONY : source/CMakeFiles/index.wt.dir/Work.cpp.o.provides
+
+source/CMakeFiles/index.wt.dir/Work.cpp.o.provides.build: source/CMakeFiles/index.wt.dir/Work.cpp.o
+
+
 # Object files for target index.wt
 index_wt_OBJECTS = \
-"CMakeFiles/index.wt.dir/Index.cpp.o"
+"CMakeFiles/index.wt.dir/Index.cpp.o" \
+"CMakeFiles/index.wt.dir/Home.cpp.o" \
+"CMakeFiles/index.wt.dir/About.cpp.o" \
+"CMakeFiles/index.wt.dir/Work.cpp.o"
 
 # External object files for target index.wt
 index_wt_EXTERNAL_OBJECTS =
 
 source/index.wt: source/CMakeFiles/index.wt.dir/Index.cpp.o
+source/index.wt: source/CMakeFiles/index.wt.dir/Home.cpp.o
+source/index.wt: source/CMakeFiles/index.wt.dir/About.cpp.o
+source/index.wt: source/CMakeFiles/index.wt.dir/Work.cpp.o
 source/index.wt: source/CMakeFiles/index.wt.dir/build.make
 source/index.wt: source/CMakeFiles/index.wt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable index.wt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable index.wt"
 	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/index.wt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +178,9 @@ source/CMakeFiles/index.wt.dir/build: source/index.wt
 .PHONY : source/CMakeFiles/index.wt.dir/build
 
 source/CMakeFiles/index.wt.dir/requires: source/CMakeFiles/index.wt.dir/Index.cpp.o.requires
+source/CMakeFiles/index.wt.dir/requires: source/CMakeFiles/index.wt.dir/Home.cpp.o.requires
+source/CMakeFiles/index.wt.dir/requires: source/CMakeFiles/index.wt.dir/About.cpp.o.requires
+source/CMakeFiles/index.wt.dir/requires: source/CMakeFiles/index.wt.dir/Work.cpp.o.requires
 
 .PHONY : source/CMakeFiles/index.wt.dir/requires
 

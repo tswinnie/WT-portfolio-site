@@ -125,6 +125,60 @@ index.wt/fast:
 	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/build
 .PHONY : index.wt/fast
 
+About.o: About.cpp.o
+
+.PHONY : About.o
+
+# target to build an object file
+About.cpp.o:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/About.cpp.o
+.PHONY : About.cpp.o
+
+About.i: About.cpp.i
+
+.PHONY : About.i
+
+# target to preprocess a source file
+About.cpp.i:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/About.cpp.i
+.PHONY : About.cpp.i
+
+About.s: About.cpp.s
+
+.PHONY : About.s
+
+# target to generate assembly for a file
+About.cpp.s:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/About.cpp.s
+.PHONY : About.cpp.s
+
+Home.o: Home.cpp.o
+
+.PHONY : Home.o
+
+# target to build an object file
+Home.cpp.o:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Home.cpp.o
+.PHONY : Home.cpp.o
+
+Home.i: Home.cpp.i
+
+.PHONY : Home.i
+
+# target to preprocess a source file
+Home.cpp.i:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Home.cpp.i
+.PHONY : Home.cpp.i
+
+Home.s: Home.cpp.s
+
+.PHONY : Home.s
+
+# target to generate assembly for a file
+Home.cpp.s:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Home.cpp.s
+.PHONY : Home.cpp.s
+
 Index.o: Index.cpp.o
 
 .PHONY : Index.o
@@ -152,6 +206,33 @@ Index.cpp.s:
 	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Index.cpp.s
 .PHONY : Index.cpp.s
 
+Work.o: Work.cpp.o
+
+.PHONY : Work.o
+
+# target to build an object file
+Work.cpp.o:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Work.cpp.o
+.PHONY : Work.cpp.o
+
+Work.i: Work.cpp.i
+
+.PHONY : Work.i
+
+# target to preprocess a source file
+Work.cpp.i:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Work.cpp.i
+.PHONY : Work.cpp.i
+
+Work.s: Work.cpp.s
+
+.PHONY : Work.s
+
+# target to generate assembly for a file
+Work.cpp.s:
+	cd "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build" && $(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/Work.cpp.s
+.PHONY : Work.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,9 +242,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... index.wt"
+	@echo "... About.o"
+	@echo "... About.i"
+	@echo "... About.s"
+	@echo "... Home.o"
+	@echo "... Home.i"
+	@echo "... Home.s"
 	@echo "... Index.o"
 	@echo "... Index.i"
 	@echo "... Index.s"
+	@echo "... Work.o"
+	@echo "... Work.i"
+	@echo "... Work.s"
 .PHONY : help
 
 

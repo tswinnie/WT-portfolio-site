@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/index.wt.dir/Index.cpp.o"
+  "CMakeFiles/index.wt.dir/Home.cpp.o"
+  "CMakeFiles/index.wt.dir/About.cpp.o"
+  "CMakeFiles/index.wt.dir/Work.cpp.o"
   "index.wt.pdb"
   "index.wt"
 )

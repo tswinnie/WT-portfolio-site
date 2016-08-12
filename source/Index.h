@@ -13,6 +13,7 @@
 #include <Wt/WLink>
 #include <Wt/WText>
 #include <Wt/WTemplate>
+#include "Home.h"
 
 using namespace Wt;
 
@@ -20,14 +21,18 @@ class Index : public WContainerWidget {
 public:
     Index(WContainerWidget *parent = 0);
     WContainerWidget *container;
-    WContainerWidget* _content;
+    WContainerWidget  *_content;
+    WContainerWidget* content();
     WContainerWidget* footer_container;
+    WAnchor *brand_link;
+    WAnchor *home_link;
+    WAnchor *about_link;
+    WAnchor *work_link;
+    void onInternalPathChange();
     void header();
     void footer();
-    void home();
-
-
-
+    void work();
+    void about();
 };
 
 

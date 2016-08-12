@@ -1,4 +1,4 @@
-SET(WT_PROJECT_SOURCE  Index.cpp )
+SET(WT_PROJECT_SOURCE  Index.cpp Index.h Home.cpp About.cpp About.h Work.cpp Work.h)
 
 SET(WT_PROJECT_TARGET index.wt)
 

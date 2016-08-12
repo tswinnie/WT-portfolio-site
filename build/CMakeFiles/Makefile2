@@ -84,7 +84,7 @@ source/preinstall:
 source/CMakeFiles/index.wt.dir/all:
 	$(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/depend
 	$(MAKE) -f source/CMakeFiles/index.wt.dir/build.make source/CMakeFiles/index.wt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" --progress-num=1,2 "Built target index.wt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target index.wt"
 .PHONY : source/CMakeFiles/index.wt.dir/all
 
 # Include target in all.
@@ -94,7 +94,7 @@ all: source/CMakeFiles/index.wt.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/index.wt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" 5
 	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/index.wt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/CMakeFiles" 0
 .PHONY : source/CMakeFiles/index.wt.dir/rule

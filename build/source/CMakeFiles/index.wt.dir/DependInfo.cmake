@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/About.cpp" "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source/CMakeFiles/index.wt.dir/About.cpp.o"
+  "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Home.cpp" "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source/CMakeFiles/index.wt.dir/Home.cpp.o"
   "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Index.cpp" "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source/CMakeFiles/index.wt.dir/Index.cpp.o"
+  "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Work.cpp" "/Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/build/source/CMakeFiles/index.wt.dir/Work.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

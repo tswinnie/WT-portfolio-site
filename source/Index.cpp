@@ -3,6 +3,9 @@
 //
 
 #include "Index.h"
+#include "Home.h"
+#include "About.h"
+#include "Work.h"
 #include <Wt/WApplication>
 #include <Wt/WPushButton>
 #include <Wt/WContainerWidget>
@@ -16,21 +19,18 @@
 using namespace Wt;
 
 Index::Index(WContainerWidget *parent) : WContainerWidget(parent) {
+
+    WApplication *app = WApplication::instance();
     container = new WContainerWidget(this);
 
     header();
-
-
     _content = 0;
-    if (_content == 0) {
-        _content = new WContainerWidget(this);
-        _content->setId("content");
-
-    }
-//    internalPathChanged().connect(this, &ControlExample::onInternalPathChange);
+    app->internalPathChanged().connect(this, &Index::onInternalPathChange);
 
     //load page elements
-    home();
+    Home hm;
+    content()->addWidget(hm.home_template());
+
     footer_container = new WContainerWidget(this);
     footer();
 
@@ -38,23 +38,61 @@ Index::Index(WContainerWidget *parent) : WContainerWidget(parent) {
 }
 
 
-//void onInternalPathChange() {
-//    content()->clear();
-//    if (internalPath() == "/") {
-//        home();
-//    }
-//    else if (internalPath() == "/page1") {
-//        page1();
-//    }
-//}
+WContainerWidget* Index::content() {
+
+    if (_content == 0) {
+        _content = new WContainerWidget(this);
+        _content->setId("content");
+    }
+    return _content;
+}
+
+
+void Index::onInternalPathChange() {
+    Wt::WApplication *app = Wt::WApplication::instance();
+
+    //clear the current content on the main page
+    content()->clear();
+
+
+    if (app->internalPath() == "/") {
+        Home hm2;
+        content()->addWidget(hm2.home_template());
+    }
+    else if (app->internalPath() == "/about") {
+        About abt;
+        content()->addWidget(abt.about_template());
+    }
+    else if (app->internalPath() == "/work"){
+        Work wrk;
+        content()->addWidget(wrk.work_template());
+
+    }
+}
 
 
 void Index::header() {
 
-//    WTemplate *headerTemplate = new WTemplate(WString::tr("nav"));
 
-    Wt::WTemplate *welcome = new Wt::WTemplate(WString::tr("header"));
-    container->addWidget(welcome);
+    Wt::WTemplate *head = new Wt::WTemplate(WString::tr("header"));
+    container->addWidget(head);
+
+    brand_link = new Wt::WAnchor(Wt::WLink(Wt::WLink::InternalPath, "/"), "ty<b class='logo-dot'>.</b>", container);
+    brand_link->addStyleClass("navbar-brand");
+    head->bindWidget("brand-link",brand_link);
+
+    home_link = new Wt::WAnchor(Wt::WLink(Wt::WLink::InternalPath, "/"), "Home", container);
+    home_link->addStyleClass("nav-link");
+    head->bindWidget("home-link",home_link);
+
+    about_link = new Wt::WAnchor(Wt::WLink(Wt::WLink::InternalPath, "/about"), "About", container);
+    about_link->addStyleClass("nav-link");
+    head->bindWidget("about-link",about_link);
+
+    work_link = new Wt::WAnchor(Wt::WLink(Wt::WLink::InternalPath, "/work"), "Work", container);
+    work_link->addStyleClass("nav-link");
+    head->bindWidget("work-link",work_link);
+
 }
 
 void Index::footer() {
@@ -64,10 +102,18 @@ void Index::footer() {
     footer_container->addWidget(footer);
 }
 
-void Index::home(){
 
-    WTemplate *home = new WTemplate(WString::tr("home"));
-    _content->addWidget(home);
+
+void Index::work() {
+    WTemplate *work = new WTemplate(WString::tr("work"));
+    content()->addWidget(work);
+
+}
+
+
+void Index::about() {
+    WTemplate *about = new WTemplate(WString::tr("about"));
+    content()->addWidget(about);
 
 }
 
@@ -82,6 +128,9 @@ WApplication* createApp(const WEnvironment &env){
     app->messageResourceBundle().use("views/header");
     app->messageResourceBundle().use("views/footer");
     app->messageResourceBundle().use("views/home");
+    app->messageResourceBundle().use("views/about");
+    app->messageResourceBundle().use("views/work");
+
 
 
 
