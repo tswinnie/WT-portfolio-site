@@ -19,6 +19,8 @@ class Work {
 public:
     Work();
     WTemplate *work_template();
+    void toggleCardDetails();
+    void showModal();
     ~Work();
 };
 

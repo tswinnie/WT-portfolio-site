@@ -13,14 +13,14 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <!--Card-->
                         <!--logo card-->
-                        <div class="card">
-                            <div class="card-block">
+                        <div class="card work-details">
+                            <div class="card-block work-card-block">
                                 <!--Title-->
                                 <h4 class="card-title">Card title</h4>
                                 <!--Text-->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div class="read-more">
-                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                    <button class="btn btn-primary view-project-btn" data-toggle="modal" data-target="#myModal">View Project</button>
                                 </div>
                             </div>
                             <!--/.Card image-->
@@ -28,15 +28,15 @@
                         <!--/.Card-->
                         <!--contact card-->
                         <!--Card-->
-                        <div class="card contact-card">
+                        <div class="card contact-card  work-details">
                             <!--details overlay content-->
-                            <div class="card-block">
+                            <div class="card-block work-card-block">
                                 <!--Title-->
                                 <h4 class="card-title">Card title</h4>
                                 <!--Text-->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div class="read-more">
-                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                    <button class="btn btn-primary view-project-btn" data-toggle="modal" data-target="#myModal">View Project</button>
                                 </div>
                             </div>
                             <!--/.Card content-->
@@ -48,29 +48,29 @@
                     <!--Second column-->
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <!--Card-->
-                        <div class="card">
+                        <div class="card work-details">
                             <!--Card content-->
-                            <div class="card-block">
+                            <div class="card-block work-card-block">
                                 <!--Title-->
                                 <h4 class="card-title">Card title</h4>
                                 <!--Text-->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div class="read-more">
-                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                    <button class="btn btn-primary view-project-btn" data-toggle="modal" data-target="#myModal">View Project</button>
                                 </div>
                             </div>
                             <!--/.Card content-->
                         </div>
                         <!--/.Card-->
-                        <div class="card contact-card">
+                        <div class="card contact-card work-details">
                             <!--Card content-->
-                            <div class="card-block">
+                            <div class="card-block work-card-block">
                                 <!--Title-->
                                 <h4 class="card-title">Card title</h4>
                                 <!--Text-->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div class="read-more">
-                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                    <button class="btn btn-primary view-project-btn" data-toggle="modal" data-target="#myModal">View Project</button>
                                 </div>
                             </div>
                             <!--/.Card content-->
@@ -82,14 +82,14 @@
                     <!--Third column-->
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <!--Card-->
-                        <div class="card">
-                            <div class="card-block">
+                        <div class="card work-details">
+                            <div class="card-block work-card-block">
                                 <!--Title-->
                                 <h4 class="card-title">Card title</h4>
                                 <!--Text-->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div class="read-more">
-                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                    <button class="btn btn-primary view-project-btn" data-toggle="modal" data-target="#myModal">View Project</button>
                                 </div>
                             </div>
                             <!--/.Card image-->
@@ -97,15 +97,15 @@
                         <!--/.Card-->
 
                         <!--Card-->
-                        <div class="card quote-card">
+                        <div class="card quote-card work-details">
                             <!--Card content-->
-                            <div class="card-block">
+                            <div class="card-block work-card-block">
                                 <!--Title-->
                                 <h4 class="card-title">Card test</h4>
                                 <!--Text-->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div class="read-more">
-                                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Project</button>
+                                    <button class="btn btn-primary view-project-btn" data-toggle="modal" data-target="#myModal">View Project</button>
                                 </div>
                             </div>
                             <!--/.Card content-->
@@ -121,7 +121,69 @@
             </div>
             <!--/.Main layout-->
         </main>
+
+
+        <!--modal content-->
+        <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="container work-container">
+                        <div class="row">
+                            <div class="col-m-12 col-lg-9 col-xl-9">
+                                <div class="card work-image-card">
+                                    <!--INCLUDE HIGH FIDELITY LARGE IMAGE HERE-->
+                                    <!--details overlay content-->
+                                    <div class="card-block">
+                                        <!--Title-->
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--Text-->
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="read-more">
+                                        </div>
+                                    </div>
+                                    <!--/.Card content-->
+                                </div>
+                            </div>
+
+                            <!--second column-->
+                            <!--INCLUDE SUPPORTING WIREFRAMES AND COLOR PALATES HERE-->
+                            <div class="col-m-3 col-lg-3 col-xl-3">
+                                <div class="card work-image-detail-card">
+                                    <!--details overlay content-->
+                                    <div class="card-block">
+                                        <!--Title-->
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--Text-->
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="read-more">
+                                        </div>
+                                    </div>
+                                    <!--/.Card content-->
+                                </div>
+                                <div class="card work-image-detail-card">
+                                    <!--details overlay content-->
+                                    <div class="card-block">
+                                        <!--Title-->
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--Text-->
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="read-more">
+                                        </div>
+                                    </div>
+                                    <!--/.Card content-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </message>
 
 
 </messages>
+
+

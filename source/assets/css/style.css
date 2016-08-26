@@ -69,9 +69,9 @@ body{
 
 .card-text:last-child {
     margin-bottom: 0;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 100;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 .outline{
@@ -84,7 +84,7 @@ body{
     text-transform: capitalize;
 }
 
-.dribble-link,.linkedin-link,.mail-link{
+.instagram-link,.linkedin-link,.mail-link{
     font-size: 1.2em;
     color: #ecf0f1;
     font-weight: 100;
@@ -95,17 +95,26 @@ body{
 
 
 
-.dribble-icon,.linkedin-icon,.mail-icon{
+.instagram-icon,.linkedin-icon,.mail-icon{
     width: 2.3em;
     margin-right: 10px;
     position: relative;
     height: 2em;
     top: 12px;
+    fill: #fff;
 }
 
-/*.linkedin-link{*/
-    /*color: #0077B5*/
-/*}*/
+.instagram{
+    width: 1.6em;
+    margin-right: 20px;
+    position: relative;
+    height: 2em;
+    top: 12px;
+    fill: #fb3958;
+    left: 5px;
+}
+
+
 li a{
     color: #ecf0f1;
 
@@ -124,7 +133,7 @@ li a:visited{
 }
 
 .quote-text{
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-style: italic;
     font-weight: 100;
     quotes: "“" "”" "‘" "’";
@@ -138,15 +147,17 @@ li a:visited{
 }
 
 .quote-author{
+    color: #f44336;
 }
 
 .skills{
     font-weight: 300;
     color: #f44336;
+    display: inline-block;
 }
 
 .about{
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 2;
     font-weight: 100;
 }
@@ -161,6 +172,7 @@ li a:visited{
 
 .design-list{
     line-height: 1;
+    font-size: 1em;
 }
 
 .dev-skill-list{
@@ -211,9 +223,7 @@ li a:visited{
     min-height: 490px;
 }
 
-.work-image-detail-card{
 
-}
 
 .close {
     float: right;
@@ -234,6 +244,87 @@ li a:visited{
     min-height: 491px;
     font-size: 1.3em;
 }
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.cursor-white{
+    color: #fff !important;
+}
+
+.body-white{
+
+    background: #fff;
+}
+
+.work-card-block{
+    height: 240px;
+    /*Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateY(220px) scale(0.8);
+    -moz-transform: translateY(220px) scale(0.8);
+    -ms-transform: translateY(220px) scale(0.8);
+    -o-transform: translateY(220px) scale(0.8);
+    transform: translateY(220px) scale(0.8);
+
+
+    /*add my css transitions*/
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+
+}
+
+.show-work-details{
+    background: rgba(44, 62, 80,0.5);
+    -moz-transform: translateY(0) scale(1);
+    -ms-transform: translateY(0) scale(1);
+    -o-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+
+}
+
+
+.reset-work-details{
+    display: none;
+
+}
+
+.view-project-btn{
+display: none
+}
+
+.view-project-btn:hover{
+    background-color: #f44336 !important;
+}
+
+.work-details{
+    cursor: pointer;
+}
+
+
+
+
 
 /*MEDIA QUERIES*/
 
@@ -267,6 +358,7 @@ li a:visited{
         margin-left: 10px;
         float: left;
     }
+
 
 
 }

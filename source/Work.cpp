@@ -3,14 +3,7 @@
 //
 
 #include "Work.h"
-#include <Wt/WApplication>
-#include <Wt/WPushButton>
-#include <Wt/WContainerWidget>
-#include <Wt/WAnimation>
-#include <Wt/WAnchor>
-#include <Wt/WLink>
-#include <Wt/WText>
-#include <Wt/WTemplate>
+
 
 using namespace Wt;
 
@@ -23,6 +16,26 @@ WTemplate* Work::work_template() {
 
     return work_content;
 }
+
+void Work::toggleCardDetails() {
+
+    //toggle hover effect for work detail cards
+    Wt::WApplication *app = Wt::WApplication::instance();
+    app->doJavaScript("$(document).ready(function(){$('.work-details').displayWorkDetails();});");
+
+
+
+
+}
+
+void Work::showModal() {
+
+    //toggle hover effect for work detail cards
+    Wt::WApplication *app = Wt::WApplication::instance();
+    app->doJavaScript("$(document).ready(function(){$('body').callModal();});");
+}
+
+
 
 
 Work::~Work() { }

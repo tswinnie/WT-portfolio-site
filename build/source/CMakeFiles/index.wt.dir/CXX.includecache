@@ -9,22 +9,6 @@
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/About.cpp
 About.h
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/About.h
-Wt/WApplication
--
-Wt/WPushButton
--
-Wt/WContainerWidget
--
-Wt/WAnimation
--
-Wt/WAnchor
--
-Wt/WLink
--
-Wt/WText
--
-Wt/WTemplate
--
 
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/About.h
 Wt/WApplication
@@ -47,22 +31,6 @@ Wt/WTemplate
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Home.cpp
 Home.h
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Home.h
-Wt/WApplication
--
-Wt/WPushButton
--
-Wt/WContainerWidget
--
-Wt/WAnimation
--
-Wt/WAnchor
--
-Wt/WLink
--
-Wt/WText
--
-Wt/WTemplate
--
 
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Home.h
 Wt/WApplication
@@ -80,6 +48,8 @@ Wt/WLink
 Wt/WText
 -
 Wt/WTemplate
+-
+string
 -
 
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Index.cpp
@@ -133,22 +103,6 @@ Home.h
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Work.cpp
 Work.h
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Work.h
-Wt/WApplication
--
-Wt/WPushButton
--
-Wt/WContainerWidget
--
-Wt/WAnimation
--
-Wt/WAnchor
--
-Wt/WLink
--
-Wt/WText
--
-Wt/WTemplate
--
 
 /Users/tyroneswinnie/Desktop/wt-3.3.5/Portfolio Site/source/Work.h
 Wt/WApplication

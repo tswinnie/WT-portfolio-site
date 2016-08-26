@@ -27,12 +27,21 @@ Index::Index(WContainerWidget *parent) : WContainerWidget(parent) {
     _content = 0;
     app->internalPathChanged().connect(this, &Index::onInternalPathChange);
 
+    content()->hide();
     //load page elements
     Home hm;
     content()->addWidget(hm.home_template());
+    content()->show();
+    app->doJavaScript("$(document).ready(function(){$('.card').animateCardsShow ();})");
+
+
 
     footer_container = new WContainerWidget(this);
     footer();
+
+
+
+
 
 
 }
@@ -51,27 +60,49 @@ WContainerWidget* Index::content() {
 void Index::onInternalPathChange() {
     Wt::WApplication *app = Wt::WApplication::instance();
 
+
     //clear the current content on the main page
     content()->clear();
+
+
 
 
     if (app->internalPath() == "/") {
         Home hm2;
         content()->addWidget(hm2.home_template());
+        //hide content initially before showing it with animation
+        content()->hide();
+        content()->show();
+        app->doJavaScript("$(document).ready(function(){$('.card').animateCardsShow ();})");
+
     }
     else if (app->internalPath() == "/about") {
         About abt;
         content()->addWidget(abt.about_template());
+        //hide content initially before showing it with animation
+        content()->hide();
+        content()->show();
+        app->doJavaScript("$(document).ready(function(){$('.card').animateCardsShow ();})");
+
     }
     else if (app->internalPath() == "/work"){
+        //run card animation
         Work wrk;
         content()->addWidget(wrk.work_template());
+        wrk.toggleCardDetails();
+        wrk.showModal();
+        //hide content initially before showing it with animation
+        content()->hide();
+        content()->show();
+        app->doJavaScript("$(document).ready(function(){$('.card').animateCardsShow ();})");
+
 
     }
 }
 
 
 void Index::header() {
+
 
 
     Wt::WTemplate *head = new Wt::WTemplate(WString::tr("header"));
@@ -148,6 +179,9 @@ WApplication* createApp(const WEnvironment &env){
     app->require("js/tether.min.js");
     app->require("js/bootstrap.min.js");
     app->require("js/mdb.min.js");
+    app->require("js/typed.min.js");
+    app->require("js/main.js");
+
 
 
     app->root()->addWidget(new Index);

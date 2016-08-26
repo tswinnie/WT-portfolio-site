@@ -3,14 +3,7 @@
 //
 
 #include "About.h"
-#include <Wt/WApplication>
-#include <Wt/WPushButton>
-#include <Wt/WContainerWidget>
-#include <Wt/WAnimation>
-#include <Wt/WAnchor>
-#include <Wt/WLink>
-#include <Wt/WText>
-#include <Wt/WTemplate>
+
 
 using namespace Wt;
 
